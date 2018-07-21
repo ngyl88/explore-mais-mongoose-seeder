@@ -1,7 +1,8 @@
 # explore-mais-mongoose-seeder
 
-Often we need to create dummy data with dependencies to test an application. I've made this example project to explore Max Eremin's mais-mongoose-seeder package.
-As opposed to mongoose-seeder, mais-mongoose-seeder requires the seeding options.
+Often we need to create dummy data with dependencies to test an application. I've made this example project to explore Max Eremin's [mais-mongoose-seeder](https://github.com/ermaxnet/mais-mongoose-seeder) package.
+
+As opposed to Sam Verschueren's [mongoose-seeder](https://github.com/SamVerschueren/mongoose-seeder) package, the package requires the seeding options to seed the data.
 
 ### How to use mais-mongoose-seeder
 index.test.js
