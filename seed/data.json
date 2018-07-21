@@ -1,0 +1,26 @@
+{
+    "users": {
+        "_model": "User",
+        "foo": {
+            "firstName": "Foo",
+            "name": "Bar",
+            "email": "foo@bar.com"
+        },
+        "anotherFoo": {
+            "firstName": "Foo",
+            "name": "a",
+            "email": "afoo@bar.com"
+        }
+    },
+    "teams": {
+        "_model": "Team",
+        "teamA": {
+            "name": "Team A",
+            "users": ["->users.foo", "->users.anotherFoo"]
+        },
+        "teamB": {
+            "name": "Team B",
+            "users": ["->users.anotherFoo"]
+        }
+    }
+}
